@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url(https://images.unsplash.com/photo-1525124568695-c4c6cd3a8842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Universal Elements*/
+h1 {
+	font-family:'Ubuntu' ;
+	font-size: 3rem;
+	color:white
+}
+p {
+	font-family:'Muli' ;
+	font-size: 2rem;
+	color: white;
+}
+header {
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	height:50px;
+	background-color: white;
+}
+.nav {
+	display: flex;
+	margin-right: 5%;
+}
+.nav a {
+	font-family:'Muli';
+	text-decoration: none;
+	font-size: 1rem;
+	color:black;
+}
+.nav button  {
+	border: 2px solid black;
+	border-radius: 5%;
+}
+/*Landing Page*/
+.MainPage {
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+.MainPage p {
+	font-family:'Muli' ;
+	font-size: 2rem;
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+.Download{
+	display:flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.Download button {
+	border: 2px solid orange;
+	border-radius: 10%;
+	background-color: orange;
+	color:white;
+	font-family: 'Ubuntu';
+	width: 15rem;
+	height: 2rem;
+}
